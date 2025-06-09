@@ -1,0 +1,17 @@
+# Key - Value pairs
+Name: Foo Abel
+Age: 30
+Job: Developer
+
+# List
+fruits:
+- apple
+- banana
+- strawberry
+
+# Parent child Nesting
+address:
+  Street: 10 Downing street
+  City: London
+  Country: UK
+  
