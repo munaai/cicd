@@ -14,6 +14,6 @@ jobs:
         run: echo "The secret is ${{ secrets.MY_SECRET }}"  
 
       - name: use secret as env var
-        run: echo "The secret is $MY_SECRET"
         env: 
-          MY_SECRET: ${{ secrets.MY_SECRET }}  
+          MY_SECRET: ${{ secrets.MY_SECRET }} 
+        run: echo "The secret is $MY_SECRET"   
