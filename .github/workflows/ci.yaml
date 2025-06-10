@@ -1,4 +1,4 @@
-Name: secret CI
+name: secret CI
 
 on: [push]
 
